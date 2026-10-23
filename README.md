@@ -11,3 +11,9 @@ python -m venv .venv
 .\.venv\Scripts\activate   
 pip install -r .\requirements-dev.txt  
 ```
+
+Une fois les dependances ajouter vous pouvez lancer l'application avec la commande : 
+
+```bash
+python -m uvicorn app.main:app --reload
+```
